@@ -6,4 +6,6 @@ authors: [ Martinfer22 ]
 website: huddouting.team
 commands:
   anunciar:
-    description: Um comando de teste
+    description: Anuncie com a predefinição que você escolheu na config.yml
+  anunciarraw:
+    description: Você irá criar a mensagem própria.
