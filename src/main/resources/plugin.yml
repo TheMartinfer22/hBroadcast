@@ -1,0 +1,9 @@
+name: Hbroadcast
+version: ${project.version}
+main: team.martin.hbroadcast.hbroadcast.hBroadcast
+api-version: 1.16
+authors: [ Martinfer22 ]
+website: huddouting.team
+commands:
+  anunciar:
+    description: Um comando de teste
