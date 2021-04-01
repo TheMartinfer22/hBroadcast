@@ -11,19 +11,18 @@ public class ComandoAnunciar implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command cmd, String s, String[] args) {
         if (sender.hasPermission(varG.permissionadmin)){
             if (args.length == 0){
-
-                sender.sendMessage(varG.prefix + "Você necessita digitar algo para anunciar.");
+                sender.sendMessage(varG.prefix + varG.comandoIncompleto);
             } else {
                 StringBuilder mensagem = new StringBuilder("");
-                for (String part : args){
+                for (String fazParte : args){
                     if (!mensagem.toString().equals(""))
                     mensagem.append(" ");
-                    mensagem.append(part);
+                    mensagem.append(fazParte);
                 }
                 Bukkit.getServer().broadcastMessage(varG.prefix + mensagem.toString());
             }
             }else {
-            sender.sendMessage(varG.prefix + "Você não possui essa permissão!");
+            sender.sendMessage(varG.semPermissao);
         }
         return false;
         };
