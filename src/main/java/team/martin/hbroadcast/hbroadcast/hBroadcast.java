@@ -2,6 +2,7 @@ package team.martin.hbroadcast.hbroadcast;
 
 import org.bukkit.plugin.java.JavaPlugin;
 import team.martin.hbroadcast.hbroadcast.comandos.ComandoAnunciar;
+import team.martin.hbroadcast.hbroadcast.comandos.ComandoAnunciarRaw;
 import team.martin.hbroadcast.hbroadcast.utils.varG;
 
 public final class hBroadcast extends JavaPlugin {
@@ -16,6 +17,7 @@ public final class hBroadcast extends JavaPlugin {
 
         //Área de importação de comandos.
         getCommand("anunciar").setExecutor(new ComandoAnunciar());
+        getCommand("anunciarraw").setExecutor(new ComandoAnunciarRaw());
     }
 
     @Override
