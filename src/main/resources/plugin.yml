@@ -1,6 +1,6 @@
-name: Hbroadcast
-version: ${project.version}
+name: hBroadcast
 main: team.martin.hbroadcast.hbroadcast.hBroadcast
+version: 1.2
 api-version: 1.16
 authors: [ Martinfer22 ]
 website: huddouting.team
@@ -9,3 +9,5 @@ commands:
     description: Anuncie com a predefinição que você escolheu na config.yml
   anunciarraw:
     description: Você irá criar a mensagem própria.
+  hbroadcastreload:
+    description: Recarregue a configuração.
