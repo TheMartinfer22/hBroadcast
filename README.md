@@ -4,7 +4,11 @@ Um simples projeto para aprimorar o meu conhecimento sobre Java e ajudar quem go
 
 ## Para fazer:
 
-
- - [ ] Arquivo de configurações.
+ - [x] Arquivo de configurações.
  - [ ] Sistema de mensagens automáticas.
  - [ ] Sistema de cores integrado.
+
+
+## Bugs reconhecidos:
+
+ 1. Comando reload não está recarregando as modificações.
