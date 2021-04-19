@@ -26,15 +26,18 @@ public class ComandoAnunciar implements CommandExecutor {
                         .replace("&", "§"));
                 return true;
             }
+
             if ((args[0].equalsIgnoreCase(anunciar.getPrefixSubComandoRaw())) && (sender.hasPermission(anunciar.getPermAdministrador()))){
                 Bukkit.broadcastMessage(String.join(" ", args)
-                        .replace(args[0],anunciar.getPrefixRaw())
-                        .replace("&", "§")); //TODO problema com o argumento 1
+                        .replace(args[0] + " ",anunciar.getPrefixRaw())
+                        .replace("&", "§"));
                 return true;
             }
+
+            //Live
             if ((args[0].equalsIgnoreCase(anunciar.getPrefixSubComandoLive())) && (sender.hasPermission(anunciar.getPermAdministrador()))){
-                Bukkit.broadcastMessage(String.join(" ", args)
-                        .replace(args[0], ChatColor.DARK_PURPLE + "[Live] ")
+                Bukkit.broadcastMessage(ChatColor.DARK_PURPLE + "[Live] " + ChatColor.LIGHT_PURPLE + "O jogador " + sender.getName() + " está ao vivo, venha conferir clicando aqui."
+                        .replace(args[0] + " ", "")
                         .replace("&", "§"));
                 return true;
             }
