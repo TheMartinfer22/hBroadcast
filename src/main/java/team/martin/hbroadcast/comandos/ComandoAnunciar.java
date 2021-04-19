@@ -5,7 +5,6 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
-import team.martin.hbroadcast.hBroadcast;
 import team.martin.hbroadcast.utils.ComandosUtils;
 
 public class ComandoAnunciar implements CommandExecutor {
@@ -42,12 +41,12 @@ public class ComandoAnunciar implements CommandExecutor {
 
         }
 
-        if ((args[0].equalsIgnoreCase("reload")) && (sender.hasPermission(anunciar.getPermAdministrador()))){
-            hBroadcast.getInstance().saveConfig();
-            hBroadcast.getInstance().reloadConfig();
-            sender.sendMessage("Você recarregou as configurações do plugin com sucesso!");
-            return true;
-        }
+//        if ((args[0].equalsIgnoreCase("reload")) && (sender.hasPermission(anunciar.getPermAdministrador()))){
+//            hBroadcast.getInstance().saveConfig();
+//            hBroadcast.getInstance().reloadConfig();
+//            sender.sendMessage("Você recarregou as configurações do plugin com sucesso!");
+//            return true;
+//        }
 
         sender.sendMessage(anunciar.getCmdIncompleto());
         return false;

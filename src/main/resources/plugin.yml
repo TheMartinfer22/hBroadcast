@@ -6,4 +6,4 @@ authors: [ Martinfer22 ]
 website: huddouting.team
 commands:
   anunciar:
-    description: Anuncie com a predefinição que você escolheu na config.yml e também recarregue as configurações.
+    description: Anuncie com a predefinição que você escolheu na config.yml
