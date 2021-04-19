@@ -6,11 +6,12 @@ Um simples projeto para aprimorar o meu conhecimento sobre Java e ajudar quem go
 
  - **/anunciar** *hnormal/hraw/hlive* (Mensagem)`- Você irá anunciar no chat com determinadas opções.
 
+- Sistema de cores integrado.
+- Sistema de configurações personalizado.
+
 ## Para fazer:
 
- - [x] Arquivo de configurações.
  - [ ] Sistema de mensagens automáticas.
- - [x] Sistema de cores integrado.
 
 ## Bugs reconhecidos:
 
