@@ -4,18 +4,18 @@ Um simples projeto para aprimorar o meu conhecimento sobre Java e ajudar quem go
 
 ## Comandos & Funcionalidades
 
- - **/anunciar** `(Mensagem)`- Você irá anunciar no chat com o prefixo
- - **/anunciarraw** `(Mensagem)` - Você irá criar sua própria mensagem
+ - **/anunciar** *hnormal/hraw/hlive* (Mensagem)`- Você irá anunciar no chat com determinadas opções.
 
 ## Para fazer:
 
  - [x] Arquivo de configurações.
  - [ ] Sistema de mensagens automáticas.
- - [ ] Sistema de cores integrado.
+ - [x] Sistema de cores integrado.
 
 ## Bugs reconhecidos:
 
  1. Comando reload não está recarregando as modificações.
+ 2. Comando RAW com pequeno espaçamento por motivos do argumento 1.
 
 
 
