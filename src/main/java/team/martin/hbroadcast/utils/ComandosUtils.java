@@ -6,22 +6,22 @@ import team.martin.hbroadcast.hBroadcast;
 public class ComandosUtils{
 
     //Prefixos
-    private String PrefixBroadcast = hBroadcast.getInstance().getConfig().getString("PrefixoBroadcast");
-    private String PrefixRaw = hBroadcast.getInstance().getConfig().getString("PrefixoRaw");
+    private String PrefixBroadcast = hBroadcast.getPluginMainClass().getConfig().getString("PrefixoBroadcast");
+    private String PrefixRaw = hBroadcast.getPluginMainClass().getConfig().getString("PrefixoRaw");
 
     //Permissões
-    private String PermStreamer = hBroadcast.getInstance().getConfig().getString("PermissaoStreamer");
-    private String PermAdministrador = hBroadcast.getInstance().getConfig().getString("PermissaoAdministrador");
-    private String PermVIP = hBroadcast.getInstance().getConfig().getString("PermissaoVIP");
+    private String PermStreamer = hBroadcast.getPluginMainClass().getConfig().getString("PermissaoStreamer");
+    private String PermAdministrador = hBroadcast.getPluginMainClass().getConfig().getString("PermissaoAdministrador");
+    private String PermVIP = hBroadcast.getPluginMainClass().getConfig().getString("PermissaoVIP");
 
     //Comando
-    private String CmdIncompleto = hBroadcast.getInstance().getConfig().getString("ComandoIncompleto");
-    private String CmdSemPermissao = hBroadcast.getInstance().getConfig().getString("ComandoSemPermissao");
+    private String CmdIncompleto = hBroadcast.getPluginMainClass().getConfig().getString("ComandoIncompleto");
+    private String CmdSemPermissao = hBroadcast.getPluginMainClass().getConfig().getString("ComandoSemPermissao");
 
     //SubComandos
-    private String PrefixSubComandoNormal = hBroadcast.getInstance().getConfig().getString("PrefixoSubComandoAnunciarNormal");
-    private String PrefixSubComandoRaw = hBroadcast.getInstance().getConfig().getString("PrefixoSubComandoAnunciarRaw");
-    private String PrefixSubComandoLive = hBroadcast.getInstance().getConfig().getString("PrefixoSubComandoAnunciarLive");
+    private String PrefixSubComandoNormal = hBroadcast.getPluginMainClass().getConfig().getString("PrefixoSubComandoAnunciarNormal");
+    private String PrefixSubComandoRaw = hBroadcast.getPluginMainClass().getConfig().getString("PrefixoSubComandoAnunciarRaw");
+    private String PrefixSubComandoLive = hBroadcast.getPluginMainClass().getConfig().getString("PrefixoSubComandoAnunciarLive");
 
     public String getPrefixSubComandoRaw() {
         return PrefixSubComandoRaw;

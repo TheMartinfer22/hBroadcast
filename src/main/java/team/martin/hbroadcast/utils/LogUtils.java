@@ -9,12 +9,12 @@ public class LogUtils {
     public void getInit(){
         System.out.println();
         System.out.println(ChatColor.GREEN + "★ [hBroadcast] O plugin hBroadcast foi carregado com sucesso :D");
-        System.out.println(ChatColor.GREEN + "★ [hBroadcast] Você está utilizando a versão " + hBroadcast.getInstance().getDescription().getVersion());
+        System.out.println(ChatColor.GREEN + "★ [hBroadcast] Você está utilizando a versão " + hBroadcast.getPluginMainClass().getDescription().getVersion());
         System.out.println();
     }
 
     public void getComandos(){
-        hBroadcast.getInstance().getCommand("anunciar").setExecutor(new ComandoAnunciar());
+        hBroadcast.getPluginMainClass().getCommand("anunciar").setExecutor(new ComandoAnunciar());
     }
 
     public void getExit(){

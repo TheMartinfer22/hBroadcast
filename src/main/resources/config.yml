@@ -1,15 +1,17 @@
+#Edite os prefixos
 PrefixoBroadcast: "[SeuServidor]"
 PrefixoRaw: ""
 
+#Edite as permissões do plugin
 PermissaoStreamer: "hbroadcast.streamer"
 PermissaoAdministrador: "hbroadcast.adm"
 PermissaoVIP: "hbroadcast.vip"
 
-
+#Edite as frases de comando.
 ComandoIncompleto: "O comando que você digitou está incompleto."
 ComandoSemPermissao: "Você não possui permissão para executar esse comando."
 
-
+#Edite os subcomandos
 PrefixoSubComandoAnunciarNormal: "hnormal"
 PrefixoSubComandoAnunciarRaw: "hraw"
 PrefixoSubComandoAnunciarLive: "hlive"

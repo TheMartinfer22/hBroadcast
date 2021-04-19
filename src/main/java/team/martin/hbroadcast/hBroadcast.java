@@ -20,7 +20,7 @@ public class hBroadcast extends JavaPlugin {
         log.getExit();
     }
 
-    public static hBroadcast getInstance() {
+    public static hBroadcast getPluginMainClass() {
         return getPlugin(hBroadcast.class);
     }
 }
