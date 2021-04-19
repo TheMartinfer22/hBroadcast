@@ -1,13 +1,15 @@
-#Altere o prefixo do plugin.
-prefix: "[hBroadcast]"
+PrefixoBroadcast: "[SeuServidor]"
+PrefixoRaw: ""
 
-#Modifique a permissão para utilizar os comandos /anunciar e /anunciarraw
-PermissaoAdmin: "hbroadcast.admin"
-
-#Edite a frase que irá aparecer caso o jogador não tenha a permissão.
-FraseSemPermissao: "Você não possui a permissão de admin para utilizar isso."
-
-#Edte a frase caso o jogador digitar o comando incompleto.
-FraseComandoIncompleto: "Você não digitou nada para anunciar em seu servidor!"
+PermissaoStreamer: "hbroadcast.streamer"
+PermissaoAdministrador: "hbroadcast.adm"
+PermissaoVIP: "hbroadcast.vip"
 
 
+ComandoIncompleto: "O comando que você digitou está incompleto."
+ComandoSemPermissao: "Você não possui permissão para executar esse comando."
+
+
+PrefixoSubComandoAnunciarNormal: "hnormal"
+PrefixoSubComandoAnunciarRaw: "hraw"
+PrefixoSubComandoAnunciarLive: "hlive"
