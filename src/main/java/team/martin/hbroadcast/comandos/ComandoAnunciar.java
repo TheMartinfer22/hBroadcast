@@ -29,9 +29,9 @@ public class ComandoAnunciar implements CommandExecutor {
                 return true;
             }
             if ((args[0].equalsIgnoreCase(anunciar.getPrefixSubComandoLive())) && (sender.hasPermission(anunciar.getPermAdministrador()))) {
-                Bukkit.broadcastMessage(ChatColor.DARK_PURPLE + "[Live] " + ChatColor.LIGHT_PURPLE + "O jogador " + sender.getName() + " está ao vivo, venha conferir clicando aqui."
+                Bukkit.broadcastMessage(ChatColor.DARK_PURPLE + "[Live] " + ChatColor.LIGHT_PURPLE + "O jogador " + sender.getName() + " está ao vivo, venha conferir: "
                         .replace(args[0] + " ", "")
-                        .replace("&", "§"));
+                        .replace("&", "§") + args);
                 return true;
             }
 
