@@ -6,6 +6,7 @@ PrefixoRaw: ""
 PermissaoStreamer: "hbroadcast.streamer"
 PermissaoAdministrador: "hbroadcast.adm"
 PermissaoVIP: "hbroadcast.vip"
+PermissaoUser: "hbroadcast.user"
 
 #Edite as frases de comando.
 ComandoIncompleto: "O comando que você digitou está incompleto."
@@ -15,3 +16,4 @@ ComandoSemPermissao: "Você não possui permissão para executar esse comando."
 PrefixoSubComandoAnunciarNormal: "hnormal"
 PrefixoSubComandoAnunciarRaw: "hraw"
 PrefixoSubComandoAnunciarLive: "hlive"
+PrefixoSubComandoPedirAjuda: "hsocorro"
