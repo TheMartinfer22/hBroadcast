@@ -6,7 +6,7 @@ Um simples projeto para aprimorar o meu conhecimento sobre Java e ajudar quem go
 
 ## `Comandos & Funcionalidades`
 
-- **/anunciar** *hnormal/hraw/hlive* (Mensagem)`- Você irá anunciar no chat com determinadas opções.
+- **/anunciar** *hnormal/hraw/hlive/hsocorro* (Mensagem)`- Você irá anunciar no chat com determinadas opções.
 
 - Sistema de cores integrado.
 - Sistema de configurações personalizado.
